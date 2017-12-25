@@ -1,0 +1,31 @@
+{
+  "name": "fooddiary",
+  "version": "1.0.0",
+  "description": "a food log that calculates nutrient totals based on user input",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skipper09/FoodDiary.git"
+  },
+  "keywords": [
+    "food",
+    "diary",
+    "log"
+  ],
+  "author": "sarah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skipper09/FoodDiary/issues"
+  },
+  "homepage": "https://github.com/skipper09/FoodDiary#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
