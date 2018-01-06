@@ -1,0 +1,41 @@
+.header {
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(221,228,53);
+    border-bottom: 4px solid rgb(194,199,45);
+    position: fixed;
+    top: 0px;
+}
+
+.header-title {
+    position: absolute;
+    left: 100px;
+    top: 5px;
+}
+
+.header-title > .main-head, .subhead {
+    padding: 0;
+    margin: 0;
+}
+
+.main-head {
+    font-size: 60px;
+}
+
+.header-nav {
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+
+.header-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.header-li {
+    display: inline;
+    padding: 50px;
+}

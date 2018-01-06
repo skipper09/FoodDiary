@@ -1,0 +1,17 @@
+body {
+}
+
+#hero-slider {
+    margin-top: 100px;
+    min-height:100vh;
+    background-image: url("../../assets/citrus.jpg");
+    background-size: cover;
+}
+
+#about-section {
+    min-height:90vh;
+}
+
+#sign-up-section {
+    min-height:90vh;
+}

@@ -1,7 +1,7 @@
 {
   "name": "fooddiary",
   "version": "1.0.0",
-  "description": "a food log that calculates nutrient totals based on user input",
+  "description": "A food diary for logging daily intake that uses USDA's db to calculate nutrient totals for the day.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,21 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/skipper09/FoodDiary.git"
   },
-  "keywords": [
-    "food",
-    "diary",
-    "log"
-  ],
-  "author": "sarah",
+  "author": "Sarah <sarah.k.payne@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/skipper09/FoodDiary/issues"
   },
-  "homepage": "https://github.com/skipper09/FoodDiary#readme",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "method-override": "^2.3.10",
-    "mysql": "^2.15.0"
-  }
+  "homepage": "https://github.com/skipper09/FoodDiary#readme"
 }
