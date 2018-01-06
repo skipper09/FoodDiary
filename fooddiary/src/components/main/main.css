@@ -1,17 +1,71 @@
-body {
-}
-
 #hero-slider {
-    margin-top: 100px;
-    min-height:100vh;
+    min-height:90vh;
     background-image: url("../../assets/citrus.jpg");
     background-size: cover;
+    text-align: center;
+    padding-right: 25vh;
+    padding-left: 25vh;
+}
+
+.hero-title {
+    margin: 0;
+    padding-top: 15vh;
+    font-size: 8em;
+}
+
+#highlight {
+    background-color: white;
+}
+
+.hero-button {
+    color: white;
+    font-size: 3em;
+    padding-top: 3em;
 }
 
 #about-section {
-    min-height:90vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr 1fr 0.5fr;
+    grid-template-columns: 1fr 70vw 1fr;
+    min-height: 90vh;   
 }
+
+#about-1 {
+    grid-area: 2/2/3/3;
+    background-color: red;
+
+}
+
+#about-2 {
+    grid-area: 3/2/4/3;
+    background-color: blue;
+
+}
+
+#about-3 {
+    grid-area: 4/2/5/3;
+    background-color: yellow;
+
+}
+
+.about-button {
+    font-size: 3em;
+    padding-top: 1em;
+    grid-area: 5/2/6/3;
+    text-align: center;
+}
+
+a.about-button:link {
+    color: orange;
+}
+
+a.about-button:visited { 
+    color: orange;
+}
+
+
 
 #sign-up-section {
     min-height:90vh;
+    background-color: rgb(238,250,188);
 }

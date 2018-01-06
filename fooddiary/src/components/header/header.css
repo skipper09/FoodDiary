@@ -1,16 +1,8 @@
-.header {
-    height: 100px;
-    width: 100vw;
-    background-color: rgb(221,228,53);
-    border-bottom: 4px solid rgb(194,199,45);
-    position: fixed;
-    top: 0px;
-}
-
 .header-title {
     position: absolute;
-    left: 100px;
-    top: 5px;
+    left: 5em;
+    top: 0.1em;
+    text-align: center;
 }
 
 .header-title > .main-head, .subhead {
@@ -19,13 +11,14 @@
 }
 
 .main-head {
-    font-size: 60px;
+    font-size: 4em;
+    line-height: 1em;
 }
 
 .header-nav {
     position: absolute;
-    right: 100px;
-    top: 40px;
+    right: 2em;
+    top: 2.6em;
 }
 
 .header-ul {

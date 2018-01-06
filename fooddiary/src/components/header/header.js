@@ -11,9 +11,9 @@ export class Header extends Component {
                 </div>
                 <div className="header-nav">
                     <ul className="header-ul">
-                        <li className="header-li">About</li>
-                        <li className="header-li">Sign Up</li>
-                        <li className="header-li">Log In</li>
+                        <li className="header-li"><button>About</button></li>
+                        <li className="header-li"><button>Sign Up</button></li>
+                        <li className="header-li"><button>Log In</button></li>
                     </ul>
                 </div>
             </div>
