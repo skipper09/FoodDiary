@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import { Header } from '../header/header.js';
 import './main.css';
 
 export class Main extends Component {
@@ -22,14 +23,38 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minima alias aut
                     </div>
                 </div>
                 <div id="about-section">
-                    <div id="about-1">
-                        About 1
+                    <div className="about-div" id="about-1">
+                        <div className="about-photo">
+                            <img src="http://via.placeholder.com/300x300" alt="placeholder" />
+                        </div>
+                        <div className="about-text">
+                            <h3>Easy to Use</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ipsum facere, voluptates itaque ut nobis blanditiis, impedit nesciunt repellendus, cupiditate voluptate quis, molestias tenetur officia incidunt quam hic voluptatum quia numquam ipsam tempora! Facilis, quaerat saepe, ipsam cupiditate ab dolor placeat recusandae nulla. Error asperiores quibusdam ea perferendis officiis perspiciatis ut iste odio dolorum, hic saepe numquam quasi veritatis labore ipsum, mollitia! Quaerat a vitae voluptatibus sapiente tenetur illo culpa, incidunt fuga minus, labore, aliquid perferendis dicta accusantium sit? Ducimus.
+                            </p>
+                        </div>
                     </div>
-                    <div id="about-2">
-                        About 2
+                    <div className="about-div" id="about-2">
+                        <div className="about-text">
+                        <h3>Reliable Data</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ipsum facere, voluptates itaque ut nobis blanditiis, impedit nesciunt repellendus, cupiditate voluptate quis, molestias tenetur officia incidunt quam hic voluptatum quia numquam ipsam tempora! Facilis, quaerat saepe, ipsam cupiditate ab dolor placeat recusandae nulla. Error asperiores quibusdam ea perferendis officiis perspiciatis ut iste odio dolorum, hic saepe numquam quasi veritatis labore ipsum, mollitia! Quaerat a vitae voluptatibus sapiente tenetur illo culpa, incidunt fuga minus, labore, aliquid perferendis dicta accusantium sit? Ducimus.
+                            </p>
+                        </div>
+                        <div className="about-photo">
+                            <img src="http://via.placeholder.com/300x300" alt="placeholder" />
+                        </div>
                     </div>
-                    <div id="about-3">
-                        About 3
+                    <div className="about-div" id="about-3">
+                        <div className="about-photo">
+                            <img src="http://via.placeholder.com/300x300" alt="placeholder" />
+                        </div>
+                        <div className="about-text">
+                        <h3>Save to Your Profile</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ipsum facere, voluptates itaque ut nobis blanditiis, impedit nesciunt repellendus, cupiditate voluptate quis, molestias tenetur officia incidunt quam hic voluptatum quia numquam ipsam tempora! Facilis, quaerat saepe, ipsam cupiditate ab dolor placeat recusandae nulla. Error asperiores quibusdam ea perferendis officiis perspiciatis ut iste odio dolorum, hic saepe numquam quasi veritatis labore ipsum, mollitia! Quaerat a vitae voluptatibus sapiente tenetur illo culpa, incidunt fuga minus, labore, aliquid perferendis dicta accusantium sit? Ducimus.
+                            </p>
+                        </div>
                     </div>
                     <div className="about-button">
                         <a href="#sign-up-section">
@@ -38,7 +63,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minima alias aut
                     </div>
                 </div>
                 <div id="sign-up-section">
-                    Sign Up Here Div
+                    <div id="sign-up-div">
+                        <div id="sign-up-img">
+                            <img src="http://via.placeholder.com/300x300" alt="placeholder" />
+                        </div>
+                        <div id="sign-up-btns">
+                            <h1>Sign Up Now</h1>
+                            <button>Sign Up</button>
+                            <p>Already a member?</p>
+                            <button>Log In</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             )

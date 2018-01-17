@@ -34,3 +34,6 @@ connection.connect(function(err){
     if (err) throw err;
     console.log('Connected as id: ' + connection.threadId)
 })
+
+lorem80 
+
