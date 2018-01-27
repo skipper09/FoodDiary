@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import ReactModal from 'react-modal';
+import LogInForm from '../logInForm/logInForm'
 import './logInModal.css';
 
-export default class LogInModal extends React.Component {
+export default class LogInModal extends Component {
     constructor () {
       super();
       this.state = {
@@ -26,16 +27,14 @@ export default class LogInModal extends React.Component {
         <div>
           <button onClick={this.handleOpenModal}>Log In</button>
           <ReactModal 
+             shouldCloseOnEsc={true}
              isOpen={this.state.showModal}
              contentLabel="Minimal Modal Example"
           >
             <button onClick={this.handleCloseModal}>Close Modal</button>
+            <LogInForm />
           </ReactModal>
         </div>
       );
     }
   }
-  
-  // const props = {};
-  
-  // ReactDOM.render(<ExampleApp {...props} />, document.getElementById('main'))

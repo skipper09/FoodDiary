@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import './signUpModal.css';
 
-export default class SignUpModal extends React.Component {
+export default class SignUpModal extends Component {
     constructor () {
       super();
       this.state = {
@@ -25,7 +25,8 @@ export default class SignUpModal extends React.Component {
       return (
         <div>
           <button onClick={this.handleOpenModal}>Sign Up Now</button>
-          <ReactModal 
+          <ReactModal
+          shouldCloseOnEsc={true}  
              isOpen={this.state.showModal}
              contentLabel="Minimal Modal Example"
           >
@@ -35,7 +36,3 @@ export default class SignUpModal extends React.Component {
       );
     }
   }
-  
-  // const props = {};
-  
-  // ReactDOM.render(<ExampleApp {...props} />, document.getElementById('main'))
