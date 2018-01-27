@@ -1,8 +1,17 @@
 import React, { Component } from 'react';
 // import { Header } from '../header/header.js';
 import './main.css';
+import SignUpModal from '../signUpModal/signUpModal';
+import LogInModal from '../logInModal/logInModal';
 
 export class Main extends Component {
+    constructor () {
+        super();
+        this.state = {
+          showModal: false
+        };
+    }
+
     render() {
         return (
             <div className="content">
@@ -68,10 +77,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minima alias aut
                             <img src="http://via.placeholder.com/300x300" alt="placeholder" />
                         </div>
                         <div id="sign-up-btns">
-                            <h1>Sign Up Now</h1>
-                            <button>Sign Up</button>
+                            <h1>Sign Up</h1>
+                            <SignUpModal />
                             <p>Already a member?</p>
-                            <button>Log In</button>
+                            <LogInModal />
                         </div>
                     </div>
                 </div>

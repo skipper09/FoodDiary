@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import SignUpModal from '../signUpModal/signUpModal';
+import LogInModal from '../logInModal/logInModal';
 import './header.css';
 
 export class Header extends Component {
@@ -12,8 +14,8 @@ export class Header extends Component {
                 <div className="header-nav">
                     <ul className="header-ul">
                         <li className="header-li"><button>About</button></li>
-                        <li className="header-li"><button>Sign Up</button></li>
-                        <li className="header-li"><button>Log In</button></li>
+                        <li className="header-li"><SignUpModal /></li>
+                        <li className="header-li"><LogInModal /></li>
                     </ul>
                 </div>
             </div>
