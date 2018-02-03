@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minima alias aut
                     </p>
                     <div className="hero-button">
                         <a href="#about-section">
-                            <i class="fas fa-arrow-circle-down"></i>
+                            <i className="fas fa-arrow-circle-down"></i>
                         </a>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minima alias aut
                     </div>
                     <div className="about-button">
                         <a href="#sign-up-section">
-                            <i class="fas fa-arrow-circle-down"></i>
+                            <i className="fas fa-arrow-circle-down"></i>
                         </a>
                     </div>
                 </div>

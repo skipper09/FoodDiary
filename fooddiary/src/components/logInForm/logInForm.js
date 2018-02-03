@@ -7,17 +7,13 @@ export default class LoginForm extends React.Component {
 		return(
 			<form>
 				<p>Login</p>
-				<div className="label-input">
-					<label>Email Address</label>
-					<input placeholder="usuario@dominio.com" />
-				</div>
-				<div className="label-input">
-					<label>Password</label>
-					<input placeholder="Password" />
-				</div>
+				<LabelInput value={email} onChange={onChange} name="email" label="Email Address" placeholder="Email Address" />
+				<LabelInput value={password} onChange={onChange} name="password" label="Password" placeholder="Password" />
 				<a>Forgot Password?</a>
-				<button>Login</button>
+				<button onClick={onSubmit}>Login</button>
 			</form>
 		);
 	}
 }
+
+
