@@ -5,7 +5,7 @@ import SignUpModal from '../signUpModal/signUpModal';
 import LogInModal from '../logInModal/logInModal';
 import AboutDiv from '../aboutDiv/aboutDiv'
 
-export class Main extends Component {
+export default class Main extends Component {
     constructor() {
         super();
         this.state = {

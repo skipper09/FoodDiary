@@ -1,11 +1,62 @@
 import React, { Component } from 'react';
 import './userHome.css';
 
-export class userHome extends Component {
+export default class UserHome extends Component {
     render() {
         return (
             <div>
                 <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                <p>You are logged in</p>
+                
             </div>
         )
     }
